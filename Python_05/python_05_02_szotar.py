@@ -31,7 +31,7 @@ print("Gyümölcsök kulcs-érték párok (items):", gyumolcsok.items())
 for gyumolcs, ar in gyumolcsok.items():
     print(f"A(z) {gyumolcs} ára: {ar} Ft")
 
-# 4. A get() függvény: Biztonságosan adja vissza egy adott kulcs értékét, ha létezik.
+# A get() függvény: Biztonságosan adja vissza egy adott kulcs értékét, ha létezik.
 # Ha a kulcs nem található a szótárban, akkor a második paraméterrel megadott alapértelmezett értéket adja vissza (vagy None-t, ha nincs megadva).
 print("A banán ára (get):", gyumolcsok.get("banán"))  # 200 Ft
 print("A barack ára (get):", gyumolcsok.get("barack", "Nincs ilyen gyümölcs"))  # Nincs ilyen gyümölcs
@@ -63,6 +63,9 @@ zoldsegek = {
 # Egyesítsük a gyümölcs és zöldség szótárakat egy nagyobb szótárba!
 novenyek = gyumolcsok | zoldsegek
 print("Növények:", novenyek)
+
+# Készítünk egy másolatot a szótárról
+gyumolcsok_masolat = gyumolcsok.copy()
 
 # Egy adott gyümölcs árának módosítása
 # Módosítsuk az eper árát 450 Ft-ra!
