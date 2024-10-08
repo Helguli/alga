@@ -18,8 +18,11 @@ print(paros)
 # Ellenőrizd, hogy részhalmaza-e a néggyel osztható számok halmaza a páros számok halmazának!
 
 # Vond ki a páros számokból a néggyel oszthatókat, és írd ki az eredmény halmazt!
+print("Néggyel nem osztható páros számok:")
 
 # Készíts egy hattal osztható halmazt, madj tedd bele az annak megfelelő számokat!
 # Tipp: páros és hárommal osztható számok metszete.
+print("Hattal osztható számok: ")
 
 # Írd ki a hárommal és néggyel osztható számok unióját!
+print("Hárommal vagy néggyel osztható számok:")
